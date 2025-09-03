@@ -14,7 +14,7 @@
 defined('ABSPATH') || exit;
 
 // Define plugin constants
-define('WPAI_RECIPE_GENERATOR_VERSION', '1.0.0');
+define('WPAI_RECIPE_GENERATOR_VERSION', '1.2.0');
 define('WPAI_RECIPE_GENERATOR_PATH', plugin_dir_path(__FILE__));
 define('WPAI_RECIPE_GENERATOR_URL', plugin_dir_url(__FILE__));
 define('WPAI_RECIPE_GENERATOR_TEMPLATES_PATH', WPAI_RECIPE_GENERATOR_PATH . 'templates/');
