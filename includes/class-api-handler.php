@@ -25,18 +25,14 @@ class WPAI_Recipe_Generator_API_Handler {
      */
 
     public function handle_prompt_request($args, $is_test = false) {
-        // error_log('[Recipe Generator] Prompt request args: ' . print_r($args, true)); // DEBUG
         // Generate the prompt (shared between frontend and admin)
         $prompt_manager = WPAI_Recipe_Generator_Prompt_Manager::get_instance();
         $prompt = $prompt_manager->generate_prompt($args);
-        // error_log('[Recipe Generator] Generated prompt: ' . $prompt); //DEBUG
         
         // Get API configuration
         $selected_provider = get_option('WPAI_recipe_generator_selected_provider', 'OpenAI');
         $api_endpoint = $this->providers->get_endpoint($selected_provider);
         $api_key = get_option('WPAI_recipe_generator_api_key', '');
-
-        // error_log("[Recipe Generator] Using provider: {$selected_provider}, endpoint: {$api_endpoint}"); //DEBUG
         
         // Validate configuration
         if (empty($api_key)) {
@@ -51,15 +47,10 @@ class WPAI_Recipe_Generator_API_Handler {
         $response = $this->make_api_request($selected_provider, $api_endpoint, $api_key, $prompt);
         
         if (is_wp_error($response)) {
-            // error_log('[Recipe Generator] API error: ' . $response->get_error_message()); //DEBUG
             return $response;
         }
 
-        // Debug raw response
-        // error_log('[Recipe Generator] Raw API response: ' . print_r($response, true)); //DEBUG
-
         $formatted = $this->format_response($selected_provider, $response);
-        // error_log('[Recipe Generator] Formatted response: ' . $formatted); //DEBUG
         
         return [
             'prompt' => $prompt,

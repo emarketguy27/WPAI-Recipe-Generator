@@ -1,7 +1,6 @@
 <?php
 // AJAX Handlers
 add_action('wp_ajax_wp_ai_recipe_generator_reset_prompt', function() {
-    error_log('Backend request handler called - reset Prompt'); // Debug line
     check_ajax_referer('wp_ai_recipe_generator_ajax_nonce', '_wpnonce');
     
     if (!current_user_can('manage_options')) {
@@ -37,7 +36,6 @@ add_action('wp_ajax_wp_ai_recipe_generator_add_dietary_option', function() {
 });
 
 add_action('wp_ajax_wp_ai_recipe_generator_remove_dietary_option', function() {
-    error_log('Backend request handler called - remove dietary option'); // Debug line
     check_ajax_referer('wp_ai_recipe_generator_ajax_nonce', '_wpnonce');
     
     if (!current_user_can('manage_options') || empty($_POST['key'])) {
@@ -62,7 +60,6 @@ add_action('wp_ajax_wp_ai_recipe_generator_remove_dietary_option', function() {
 });
 
 add_action('wp_ajax_wp_ai_recipe_generator_reset_dietary_options', function() {
-    error_log('Backend request handler called - reset dietary options'); // Debug line
     check_ajax_referer('wp_ai_recipe_generator_ajax_nonce', '_wpnonce');
     
     if (!current_user_can('manage_options')) {

@@ -1,4 +1,4 @@
-=== Recipe Generator ===
+=== WPAI Recipe Generator ===
 Contributors: jdennisuk
 Donate link: https://jamesdennis.org
 Tags: AI, AI Recipes, Recipes
