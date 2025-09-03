@@ -61,7 +61,7 @@ A: Yes! Shortcodes work in any theme, and templates are style-agnostic.
 
 == Changelog ==
 
-= 1.0 =
+= 1.2 =
 * Initial release with AI generation, schema markup, and shortcodes.
 * Responsive design implementation
 * Shortcode integration
