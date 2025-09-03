@@ -1,0 +1,75 @@
+<!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"},"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60);padding-right:0;padding-left:0"><!-- wp:query-title {"type":"archive","align":"wide"} /-->
+
+<!-- wp:term-description {"align":"wide"} /-->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"right":"0","left":"0","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":{"left":"var:preset|spacing|50"},"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|accent-6","style":"solid","width":"1px"}}}} -->
+<div class="wp-block-columns alignwide" style="border-top-color:var(--wp--preset--color--accent-6);border-top-style:solid;border-top-width:1px;margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30);padding-top:var(--wp--preset--spacing--50);padding-right:0;padding-bottom:var(--wp--preset--spacing--50);padding-left:0"><!-- wp:column {"width":"75%","style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}}} -->
+<div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:75%"><!-- wp:query {"queryId":19,"query":{"perPage":10,"pages":0,"offset":0,"postType":"ai_recipe","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"parents":[],"format":[]},"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"align":"full","layout":{"type":"grid","columnCount":2}} -->
+<!-- wp:group {"align":"full","className":"is-style-section-4","style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|20","right":"0","left":"0"}},"border":{"radius":"10px"},"shadow":"var:preset|shadow|natural","dimensions":{"minHeight":""}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-4" style="border-radius:10px;padding-top:0;padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0;box-shadow:var(--wp--preset--shadow--natural)"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2","style":{"border":{"radius":"10px"}}} /-->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"margin":{"top":"0","bottom":"0"}},"dimensions":{"minHeight":"200px"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->
+<div class="wp-block-group" style="min-height:200px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)"><!-- wp:post-title {"isLink":true,"fontSize":"x-large"} /-->
+
+<!-- wp:group {"style":{"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:post-terms {"term":"ai_recipe_category","prefix":"Course:     ","style":{"typography":{"textTransform":"capitalize","letterSpacing":"1px","fontStyle":"normal","fontWeight":"300"},"elements":{"link":{":hover":{"color":{"text":"var:preset|color|accent-2"}}}},"layout":{"selfStretch":"fit","flexSize":null}}} /-->
+
+<!-- wp:post-terms {"term":"ai_recipe_tag","separator":"","prefix":"Suitable for :     ","className":"is-style-post-terms-1","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-3"},":hover":{"color":{"text":"var:preset|color|accent-1"}}}}}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}},"typography":{"fontStyle":"normal","fontWeight":"100"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+<div class="wp-block-group has-small-font-size" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);font-style:normal;font-weight:100"><!-- wp:post-date {"isLink":true,"displayType":"modified","style":{"spacing":{"margin":{"top":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"fontSize":"small"} /-->
+
+<!-- wp:post-author-name {"isLink":true} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:query-no-results -->
+<!-- wp:paragraph -->
+<p>Sorry, but nothing was found. Please try a search with different keywords.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:query-pagination {"paginationArrow":"arrow","align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:group --></div>
+<!-- /wp:query --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"25%"} -->
+<div class="wp-block-column" style="flex-basis:25%"><!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search...","buttonText":"Search","buttonPosition":"no-button","fontSize":"small"} /-->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:heading {"level":3,"className":"is-style-default","style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1.6"},"border":{"bottom":{"color":"var:preset|color|accent-6","style":"solid","width":"1px"}}},"fontSize":"medium"} -->
+<h3 class="wp-block-heading is-style-default has-medium-font-size" style="border-bottom-color:var(--wp--preset--color--accent-6);border-bottom-style:solid;border-bottom-width:1px;font-style:normal;font-weight:700;line-height:1.6">Recipe Categories</h3>
+<!-- /wp:heading -->
+
+<!-- wp:tag-cloud {"taxonomy":"ai_recipe_category","smallestFontSize":"12pt","largestFontSize":"12pt","className":"is-style-outline","style":{"typography":{"fontStyle":"normal","fontWeight":"100","lineHeight":"0.6"},"border":{"radius":"6px"}}} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:heading {"level":3,"className":"is-style-default","style":{"typography":{"lineHeight":1.6,"fontStyle":"normal","fontWeight":"700"},"border":{"bottom":{"color":"var:preset|color|accent-6","style":"solid","width":"1px"},"top":[],"right":[],"left":[]}},"fontSize":"medium"} -->
+<h3 class="wp-block-heading is-style-default has-medium-font-size" style="border-bottom-color:var(--wp--preset--color--accent-6);border-bottom-style:solid;border-bottom-width:1px;font-style:normal;font-weight:700;line-height:1.6">Dietary Tags</h3>
+<!-- /wp:heading -->
+
+<!-- wp:tag-cloud {"taxonomy":"ai_recipe_tag","smallestFontSize":"12pt","largestFontSize":"12pt","className":"is-style-outline","style":{"typography":{"fontStyle":"normal","fontWeight":"100","lineHeight":"0.6"},"border":{"radius":"6px"}}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer"} /-->

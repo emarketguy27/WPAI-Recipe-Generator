@@ -1,0 +1,61 @@
+<!-- wp:template-part {"slug":"header","tagName":"header","area":"header"} /-->
+
+<!-- wp:group {"tagName":"article","align":"full","className":"recipe-article","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"0","right":"0"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"constrained"}} -->
+<article class="wp-block-group alignfull recipe-article" style="padding-top:var(--wp--preset--spacing--60);padding-right:0;padding-bottom:var(--wp--preset--spacing--60);padding-left:0"><!-- wp:columns {"align":"wide","className":"recipe-columns"} -->
+<div class="wp-block-columns alignwide recipe-columns"><!-- wp:column {"className":"recipe-main-content"} -->
+<div class="wp-block-column recipe-main-content"><!-- wp:group {"tagName":"main","className":"recipe-card is-style-default","style":{"border":{"radius":"10px"},"shadow":"var:preset|shadow|deep","spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|50","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"layout":{"type":"default"}} -->
+<main class="wp-block-group recipe-card is-style-default" style="border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--30);box-shadow:var(--wp--preset--shadow--deep)"><!-- wp:group {"tagName":"header","className":"recipe-header"} -->
+<header class="wp-block-group recipe-header"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group"><!-- wp:post-title {"level":1,"className":"wp-block-post-title recipe-title"} /-->
+
+<!-- wp:post-excerpt {"className":"wp-block-post-excerpt recipe-excerpt"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:post-featured-image {"aspectRatio":"auto","width":"100%","height":"300px","align":"wide","className":"wp-block-post-featured-image alignwide recipe-image","style":{"border":{"radius":"8px"},"layout":{"selfStretch":"fill","flexSize":null}}} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:post-terms {"term":"ai_recipe_tag","separator":"","className":"is-style-post-terms-1 recipe-tags"} /--></header>
+<!-- /wp:group -->
+
+<!-- wp:separator {"className":"recipe-divider"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity recipe-divider"/>
+<!-- /wp:separator -->
+
+<!-- wp:post-content {"className":"wp-block-post-content recipe-content","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|50"}}} /--></main>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"is-style-default","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group is-style-default" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:post-navigation-link {"type":"previous","showTitle":true,"arrow":"arrow","style":{"layout":{"selfStretch":"fill","flexSize":null}}} /-->
+
+<!-- wp:post-navigation-link {"textAlign":"right","showTitle":true,"arrow":"arrow","style":{"layout":{"selfStretch":"fill","flexSize":null}}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"25%","className":"recipe-sidebar"} -->
+<div class="wp-block-column recipe-sidebar" style="flex-basis:25%"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}},"border":{"left":{"color":"var:preset|color|accent-6","style":"solid","width":"1px"},"top":{},"right":{},"bottom":{}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="border-left-color:var(--wp--preset--color--accent-6);border-left-style:solid;border-left-width:1px;padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:group {"className":"dietary-tags-section","style":{"spacing":{"blockGap":"0"}}} -->
+<div class="wp-block-group dietary-tags-section"><!-- wp:heading {"level":3,"className":"sidebar-heading"} -->
+<h3 class="wp-block-heading sidebar-heading">Browse Courses</h3>
+<!-- /wp:heading -->
+
+<!-- wp:tag-cloud {"numberOfTags":6,"taxonomy":"ai_recipe_category","smallestFontSize":"12pt","largestFontSize":"12pt","className":"dietary-tags is-style-outline","style":{"typography":{"fontStyle":"normal","fontWeight":"300","lineHeight":"1"},"border":{"bottom":{"color":"var:preset|color|accent-6","style":"solid","width":"1px"}},"spacing":{"margin":{"left":"0","bottom":"var:preset|spacing|50"},"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}}} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"dietary-tags-section","style":{"spacing":{"blockGap":"0"}}} -->
+<div class="wp-block-group dietary-tags-section"><!-- wp:heading {"level":3,"className":"sidebar-heading"} -->
+<h3 class="wp-block-heading sidebar-heading">Browse Diets</h3>
+<!-- /wp:heading -->
+
+<!-- wp:tag-cloud {"numberOfTags":6,"taxonomy":"ai_recipe_tag","smallestFontSize":"12pt","largestFontSize":"12pt","className":"dietary-tags is-style-outline","style":{"typography":{"fontStyle":"normal","fontWeight":"300","lineHeight":"1"},"border":{"bottom":{"color":"var:preset|color|accent-6","style":"solid","width":"1px"}},"spacing":{"margin":{"left":"0","bottom":"var:preset|spacing|50"},"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}}} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:shortcode -->
+[user_saved_recipes]
+<!-- /wp:shortcode --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></article>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer","area":"footer"} /-->

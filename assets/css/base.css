@@ -1,0 +1,26 @@
+:root {
+  --rg-primary: var(--wp--preset--color--primary, #0073aa);
+  --rg-primary-light: color-mix(in srgb, var(--rg-primary) 70%, transparent);
+  --rg-primary-lighter: color-mix(in srgb, var(--rg-primary) 8%, transparent);
+  --rg-accent-1: var(--wp--preset--color--accent-1, #3858e9);
+  --rg-accent-2: var(--wp--preset--color--accent-2, #4fb8d9);
+  --rg-accent-3: var(--wp--preset--color--accent-3, #7e57c2);
+  --rg-base: var(--wp--preset--color--base, #ffffff);
+  --rg-contrast: var(--wp--preset--color--contrast, #000000);
+  --rg-success: #4caf50;
+  --rg-danger: #ff000052;
+  --rg-transition: all 0.3s ease;
+  --rg-spacing: var(--wp--preset--spacing--30, 1rem);
+  --rg-border-radius: 8px;
+  --rg-box-shadow: 0 0 16px 6px rgba(0,0,0,0.05);
+}
+.meta-group .dashicons, .meta-icon .dashicons, .recipe-meta .dashicons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:2rem;
+  height:2rem;
+  font-size:2rem;
+  color:var(--rg-accent-1);
+  text-shadow:1px 2px 3px rgba(0,0,0,0.6);
+}
