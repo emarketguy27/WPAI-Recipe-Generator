@@ -4,7 +4,7 @@ Donate link: https://jamesdennis.org
 Tags: AI, AI Recipes, Recipes
 Requires at least: 6.7
 Tested up to: 6.8
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPL v3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -61,7 +61,7 @@ A: Yes! Shortcodes work in any theme, and templates are style-agnostic.
 
 == Changelog ==
 
-= 1.2 =
+= 1.2.1 =
 * Initial release with AI generation, schema markup, and shortcodes.
 * Responsive design implementation
 * Shortcode integration

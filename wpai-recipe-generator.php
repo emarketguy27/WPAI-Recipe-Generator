@@ -3,7 +3,7 @@
  * Plugin Name: WPAI Recipe Generator
  * Plugin URI: https://jamesdennis.org/wpai-recipe-generator.html
  * Description: ✨ AI-Powered Recipe Generation - Transform your food blog — SEO-optimized recipes in seconds! Perfect for bloggers, chefs, and content creators.
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: James Dennis
  * Author URI: https://jamesdennis.org
  * License: GPL v3.0
@@ -14,7 +14,7 @@
 defined('ABSPATH') || exit;
 
 // Define plugin constants
-define('WPAI_RECIPE_GENERATOR_VERSION', '1.2.0');
+define('WPAI_RECIPE_GENERATOR_VERSION', '1.2.1');
 define('WPAI_RECIPE_GENERATOR_PATH', plugin_dir_path(__FILE__));
 define('WPAI_RECIPE_GENERATOR_URL', plugin_dir_url(__FILE__));
 define('WPAI_RECIPE_GENERATOR_TEMPLATES_PATH', WPAI_RECIPE_GENERATOR_PATH . 'templates/');
